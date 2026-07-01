@@ -68,7 +68,7 @@ RESULT: ALL CHECKS PASSED. UART + Pixhawk link is working.
 If the heartbeat check fails, double-check:
 - TX/RX wiring isn't swapped between Jetson and Pixhawk
 - Baud rate matches your flight controller's `SERIALx_BAUD` param
-  (default assumed here: 115200)
+  (default assumed here: 115200, can be 57600 as well)
 - The Pixhawk is powered and its serial port is configured for MAVLink
 
 ## Manual live monitoring (optional)
