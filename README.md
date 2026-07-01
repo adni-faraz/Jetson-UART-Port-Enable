@@ -38,8 +38,8 @@ reboot.
 ## Usage
 
 ```bash
-git clone <this-repo-url>
-cd <this-repo>
+git clone https://github.com/adni-faraz/Jetson-UART-Port-Enable.git
+cd Jetson_UART-Port-Enable
 chmod +x setup_jetson_uart.sh
 ./setup_jetson_uart.sh
 ```
